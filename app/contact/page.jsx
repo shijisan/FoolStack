@@ -31,7 +31,7 @@ export default function Contact() {
 
     return (
         <div className="container flex flex-col items-center justify-center mt-8">
-            <form ref={form} onSubmit={sendEmail} className="flex flex-col w-4/12 p-8 space-y-5 bg-gray-700 rounded">
+            <form ref={form} onSubmit={sendEmail} className="flex flex-col w-4/12 p-8 space-y-3 bg-gray-700 rounded">
                 <label className="text-white" htmlFor="from_name">Your Name:</label>
                 <input
                     className="p-2 rounded"
