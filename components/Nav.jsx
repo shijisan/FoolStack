@@ -17,8 +17,9 @@ export default function Nav() {
   // Define navigation items with dynamic current property
   const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Donate', href: '/donate' },
-    { name: 'Contact', href: '/contact' }, // Adjust href to match the real URL
+    { name: 'Donate', href: '/donate/one-time' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Shop', href: '/shop' },
   ];
 
   return (
